@@ -9,7 +9,7 @@ export async function POST(req: Request) {
 
   const result = streamText({
     model: fireworks('accounts/fireworks/models/deepseek-r1'),
-    system: "You are a helpful assistant that takes in the web for information and replies to the user. Please detect the user's language and respond in the same language.",
+    system: "You are a helpful assistant that takes in the web for information and replies to the user with correct answer. 使用中文回答",
     messages,
   });
 
