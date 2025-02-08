@@ -44,7 +44,7 @@ export const metadata: Metadata = {
     description: "42deep，你的深度研究助手，基于 AI 的智能搜索和分析工具",
     images: ["https://picsaving-1258754708.cos.ap-guangzhou.myqcloud.com/img/42deep.png"]
   },
-  metadataBase: new URL("https://42deep.huoshuiai.com"),
+  metadataBase: new URL("https://42deep.huoshuiai.com/deepseekchat"),
   robots: {
     index: true,
     follow: true
@@ -57,9 +57,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="zh">
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" href="/deepseekchat/42deep.png" />
       </head>
       <body
         className={`${abcdDiatype.variable} ${reckless.variable} antialiased`}
