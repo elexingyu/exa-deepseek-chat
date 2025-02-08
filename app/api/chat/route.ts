@@ -2,7 +2,7 @@ import { deepseek } from '@ai-sdk/deepseek';
 import { fireworks } from '@ai-sdk/fireworks';
 import { streamText } from 'ai';
 
-export const maxDuration = 300;
+export const maxDuration = 60;
 
 export async function POST(req: Request) {
   const { messages } = await req.json();
