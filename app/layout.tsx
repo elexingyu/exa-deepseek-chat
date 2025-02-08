@@ -22,29 +22,29 @@ const reckless = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Exa & Deepseek Chat App",
-  description: "An opensource chat application built with Exa for web search and Deepseek R1.",
+  title: "42deep｜活水深度，你的深度研究助手",
+  description: "42deep，你的深度研究助手，基于 AI 的智能搜索和分析工具",
   openGraph: {
-    title: "Exa & Deepseek Chat App",
-    description: "An opensource chat application built with Exa for web search and Deepseek R1.",
+    title: "42deep｜活水深度，你的深度研究助手",
+    description: "42deep，你的深度研究助手，基于 AI 的智能搜索和分析工具",
     type: "website",
-    locale: "en_US",
+    locale: "zh_CN",
     images: [
       {
-        url: "https://demo.exa.ai/deepseekchat/opengraph-image.jpg",
+        url: "https://picsaving-1258754708.cos.ap-guangzhou.myqcloud.com/img/42deep.png",
         width: 1200,
         height: 630,
-        alt: "Exa & Deepseek Chat App"
+        alt: "42deep｜活水深度，你的深度研究助手"
       }
     ]
   },
   twitter: {
     card: "summary_large_image",
-    title: "Exa & Deepseek Chat App",
-    description: "An opensource chat application built with Exa for web search and Deepseek R1.",
-    images: ["https://demo.exa.ai/deepseekchat/opengraph-image.jpg"]
+    title: "42deep｜活水深度，你的深度研究助手",
+    description: "42deep，你的深度研究助手，基于 AI 的智能搜索和分析工具",
+    images: ["https://picsaving-1258754708.cos.ap-guangzhou.myqcloud.com/img/42deep.png"]
   },
-  metadataBase: new URL("https://demo.exa.ai/deepseekchat"),
+  metadataBase: new URL("https://42deep.huoshuiai.com"),
   robots: {
     index: true,
     follow: true
